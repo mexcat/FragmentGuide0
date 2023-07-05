@@ -19,11 +19,8 @@ public class QuestionFragment extends Fragment {
 
 
     public QuestionFragment() {
-        // Required empty public constructor
+
     }
-
-
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -37,7 +34,6 @@ public class QuestionFragment extends Fragment {
         mBinding = FragmentQuestionBinding.inflate(inflater,container,false);
         return mBinding.getRoot();
     }
-
 
     @Override
 
